@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,600&display=swap");
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.Card {
+    width: 573px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+    height: 304px;
+    background-color: #fff;
+    text-align: center;
+    font-family: arial;
+    margin: 30px 150px;
+    border-radius: 61px;
+    border: none;
+
+    
+   
+  }
+  .Card--image{
+    width: 176px;
+    height: 200px;
+    position: relative;
+    top: 41px;
+    left: 328px;
+
+  }
+  .flat{
+    font-family: poppins;
+    color: black;
+    font-size: 26px;
+    font-weight: 500;
+    position: relative;
+    top: -200px;
+    left: -211px;
+  }
+  .Off{
+    font-family: poppins;
+    font-weight: 700;
+    color: green;
+    font-size: 35px;
+    position: relative;
+    top: -250px;
+    left: -201px;
+  }
+  .price{
+   color : black;
+    font-size: 26px;
+    font-weight: 400;
+    position: relative;
+    top: -248px;
+    left: -22px;
+}
+.button{
+   position: relative;
+    top: -189px;
+    left: -210px;
+    width: 30%;
+    height: 44px;
+    border-radius: 20px;
+    background-color: #c6e8f685;
+}
+.button:hover{
+  transform: scale(1.2);
+}
+
+  

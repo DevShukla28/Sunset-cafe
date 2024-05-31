@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h2 {
+    margin: 1rem auto 4rem;
+    width: 94%;
+    font-size: 22px;
+    font-family: poppins;
+    color: brown;
+  }
+  
+  .product--image {
+    width: 100%;
+    height: 30%;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 180px;
+    height: 600px;
+    /* margin: auto 1rem; */
+    text-align: center;
+    font-family: arial;
+    margin-top: 150px;
+    
+   
+  }
+  p1{
+    width: 92%;
+    margin-top: -31px;
+    text-align: center;
+    padding-left: 4px;
+    text-align: center;
+  }
+  
+  

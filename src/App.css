@@ -1,38 +1,293 @@
-.App {
-  text-align: center;
+/** @format */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  overflow-x: hidden;
+}
+.container-fluid img {
+  margin-left: 40px;
+  z-index: 999;
+  position: relative;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-list {
+  padding: 6px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 40px;
+  font-size: 24px;
+  font-family: poppins;
+  font-weight: 500;
+  z-index: 999;
+  position: relative;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-list-1 {
+  padding: 6px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #fff;
+  font-family: poppins;
+  font-weight: 500;
+  z-index: 999;
+  position: relative;
+}
+.nav-item a{
+  position: relative;
+}
+.nav-item a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 100%;
+  height: 3px;
+  background: #e3c30d;
+  border-radius: 5px;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.5s;
+}
+.nav-item a:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Icon {
+  position: relative;
+  top: 0px;
+  left: 30px;
+  color: #fff;
+}
+.login-btn {
+  margin-left: -36px;
+}
+.my-cart {
+  position: relative;
+  top: 10px;
+  left: 88px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  text-decoration: none;
+}
+.profile-icon{
+  position: relative;
+  left: -70px;
+}
+
+.logo img {
+  width: 50%;
+  height: 87%;
+}
+.right-part {
+  position: relative;
+  left: -50px;
+}
+.right-part-1 {
+  position: relative;
+  left: -85px;
+}
+.vertical {
+  background-color: yellow;
+  height: 30px;
+  width: 2px;
+  position: relative;
+  z-index: 1;
+  border: 2px solid yellow;
+}
+
+/* Footer css */
+
+.Footer {
+  width: 105%;
+  height: 400px;
+  background: #7c727291;
+  position: relative;
+  top: -268px;
+  left: -11px;
+  z-index: -1;
+}
+.address {
+  width: 397px;
+  margin-top: -629px;
+  margin-left: 65px;
+}
+.address h1 {
+  color: black;
+  font-family: "Nunito Sans";
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 16px;
+}
+.address p {
+  color: #000;
+  font-family: "Nunito Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 12px;
+}
+
+.second-col {
+  width: 289px;
+  position: relative;
+  top: -205px;
+  margin-left: 536px;
+}
+.second-col h1 {
+  color: black;
+  font-family: "Nunito Sans";
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.second-col a {
+  color: #000;
+  font-family: "Nunito Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 12px;
+  margin-left: -3px;
+  display: flex;
+  text-decoration: none;
+}
+.Third-col {
+  width: 289px;
+  /* margin-top: -238px; */
+  position: relative;
+  top: -443px;
+  margin-left: 840px;
+}
+.Third-col h1 {
+  color: black;
+  font-family: "Nunito Sans";
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.phone-icon {
+  display: flex;
+  color: #000;
+  font-family: "Nunito Sans";
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 12px;
+  margin-left: 0px;
+}
+.phone-icon p {
+  margin-left: 12px;
+  margin-top: -3px;
+}
+.message-icon {
+  display: flex;
+  color: #000;
+  font-family: "Nunito Sans";
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 12px;
+  margin-left: 0px;
+}
+.message-icon p {
+  margin-left: 16px;
+  margin-top: -3px;
+}
+.chat-icon {
+  display: flex;
+  color: #000;
+  font-family: "Nunito Sans";
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 12px;
+  margin-top: 5px;
+  margin-left: 0px;
+}
+.chat-icon p {
+  margin-left: 16px;
+  margin-top: -3px;
+}
+.Fourth-col {
+  width: 216px;
+  /* margin-top: -184px; */
+  margin-left: 1238px;
+  position: relative;
+  top: -683px;
+}
+.Fourth-col h1 {
+  color: black;
+  font-family: "Nunito Sans";
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 12px;
+  margin-left: -3px;
+}
+.Fourth-col p {
+  color: #000;
+  font-family: "Nunito Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.bottom-tag {
+  margin-top: -614px;
+  position: relative;
+  margin-left: 555px;
+  display: flex;
+}
+.bottom-tag h1 {
+  color: black;
+  font-family: "Nunito Sans";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.media-icons {
+  width: 200px;
+  padding: 10px 56px;
+  display: flex;
+  gap: 40px;
+}
+
+/* last part text css */
+.footer-para {
+  background-color: #000;
+  width: 101%;
+  height: 37%;
+  position: relative;
+  top: 7px;
+  left: -12px;
+  width: 110%;
+}
+.footer-para h1 {
+  width: 641px;
+  color: #fff;
+  font-family: "Nunito Sans";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  position: relative;
+  left: 447px;
+  top: 12px;
+  /* margin: px 460px; */
 }

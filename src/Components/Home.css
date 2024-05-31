@@ -1,0 +1,368 @@
+/** @format */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,600&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  overflow-x: hidden;
+}
+/*  */
+
+.grey-box {
+  background-color: black;
+  width: 100%;
+  height: 1000px;
+  z-index: 1;
+  position: absolute;
+  opacity: 0.7;
+  top: 0px;
+  left: 0px;
+  background-size: cover;
+  background-blend-mode: darken;
+}
+.bg-image {
+  background: url("/Images/home-bg.jpg");
+  margin-top: -125px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1002px;
+  background-position: center;
+}
+.left-part {
+  margin-top: 300px;
+}
+
+.left-part h1 {
+  margin-top: 20%;
+  color: #d27e09;
+  position: relative;
+  font-family: poppins;
+  z-index: 1;
+  margin-left: 150px;
+}
+.left-part p3 {
+  margin-top: 3%;
+  color: white;
+  position: relative;
+  z-index: 1;
+  margin-left: 90px;
+  display: block;
+  width: 60%;
+  font-size: 27px;
+  line-height: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.left-part h5 {
+  margin-top: 7%;
+  color: #d27e09;
+  position: relative;
+  font-family: poppins;
+  z-index: 1;
+  width: 33%;
+  margin-left: 150px;
+  font-size: 27px;
+}
+.left-part p4 {
+  margin-top: 4%;
+  color: white;
+  position: relative;
+  z-index: 1;
+  margin-left: 90px;
+  display: block;
+  width: 62%;
+  font-size: 25px;
+  line-height: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.btn {
+  margin: 9% 20%;
+  width: 25%;
+  height: 60px;
+  background-color: transparent;
+  color: white;
+  font-size: 25px;
+  border-radius: 4px;
+  border: 2px solid white;
+  z-index: 1;
+  position: relative;
+  padding-top: 1px;
+  cursor: pointer;
+}
+
+.right--part {
+  margin-top: 120px;
+  position: relative;
+  z-index: 1;
+}
+.right--part h1 {
+  color: #fff;
+  font-family: poppins;
+  font-weight: 300;
+  text-decoration: underline;
+  position: relative;
+  top: 110px;
+}
+/* Second-sec css */
+
+.second-sec {
+  background: #808080ad;
+  margin-left: -12px;
+  width: 110%;
+  height: auto;
+  margin-top: 26px;
+}
+.second-sec h4 {
+  font-family: poppins;
+  font-size: 27px;
+  font-weight: 600;
+}
+
+.second-sec h1 {
+  font-family: poppins;
+  font-size: 35px;
+  font-weight: 700;
+}
+.second-sec p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  width: 90%;
+  padding-top: 30px;
+}
+
+.second-sec img {
+  height: 61%;
+  width: 47%;
+  border-radius: 50%;
+  margin-top: 40px;
+  box-shadow: 20px 7px 10px 4px #0e0e0e;
+  margin-left: 90px;
+}
+.btn-1 {
+  height: 54px;
+  width: 170px;
+  background: rgb(203, 26, 26);
+  margin-left: 173px;
+  border: none;
+  border-radius: 10px;
+  font-size: 22px;
+  transform-origin: center;
+}
+.btn-1 a {
+  color: black;
+  text-decoration: none;
+}
+.btn-1:hover {
+  transform: scale(1.2);
+}
+
+/* 3rd section css */
+
+.third-sec {
+  background: #f02bc557;
+  margin-left: -12px;
+  width: 110%;
+  height: 550px;
+  margin-top: -16px;
+}
+.third-part {
+  width: 100%;
+  margin-left: -93px;
+}
+.heading {
+  color: #0e0e0e;
+  position: relative;
+  top: 20px;
+  font-family: poppins;
+  font-size: 38px;
+  font-weight: 400;
+}
+
+/* 4rth section css  */
+
+.fourth-sec {
+  background-color: #232342;
+  height: 600px;
+  width: 110%;
+  margin-left: -12px;
+}
+.fourth-sec img {
+  width: 95%;
+  height: 83%;
+  margin-top: 50px;
+  display:flex ;
+}
+.option {
+  position: relative;
+  height: 30px;
+  width: 50px;
+  left: 72%;
+  padding-left: 5px;
+  top: -23%;
+  border-radius: 10px;
+}
+.option:hover {
+  transform: scale(1.2);
+}
+
+.Form {
+  height: 60px;
+  width: 40%;
+  padding: 20px;
+  margin: 10px 3px;
+  position: relative;
+  left: -20px;
+  top: 50px;
+}
+.Form-email {
+  height: 60px;
+  width: 40%;
+  padding: 20px;
+  margin: 0px 340px;
+  position: relative;
+  left: -20px;
+  top: -21px;
+}
+.Form-people {
+  height: 60px;
+  width: 40%;
+  padding: 20px;
+  margin: 0px 340px;
+  position: relative;
+  left: -20px;
+  top: -85px;
+}
+.Form-date {
+  height: 60px;
+  width: 40%;
+  padding: 20px;
+  margin: 10px 20px;
+  position: relative;
+  left: -35px;
+  top: -15px;
+}
+.Form-des {
+  height: 120px;
+  width: 83%;
+  padding: 10px 10px;
+  position: relative;
+  left: -14px;
+  top: -87px;
+}
+.header {
+  font-family: poppins;
+  font-size: 40px;
+  color: rgb(255, 157, 0);
+  margin-top: -5px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+.Sub-heading {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  color: #fff;
+  font-weight: 600;
+  position: relative;
+  top: 20px;
+  letter-spacing: 2px;
+}
+.btn-btn {
+  height: 50px;
+  width: 83%;
+  padding: 20px;
+  position: relative;
+  left: -13px;
+  top: -58px;
+  font-size: 30px;
+  font-family: poppins;
+  padding: 1px;
+  color: #fff;
+  background-color: rgb(247, 181, 37);
+  font-weight: 500;
+  cursor: pointer;
+  transition: transform 0.2s;
+  transform-origin: center;
+}
+.btn-btn:hover {
+  transform: scale(1.1);
+}
+/* 5th sec css */
+
+.fifth-sec {
+  background-color: #000;
+  height: 600px;
+  width: 110%;
+  margin-left: -12px;
+  position: relative;
+}
+.bg--img {
+  background: url("/Images/bg-img.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 900px;
+  background-position: center;
+  background-color: #000;
+}
+.black-box {
+  background: #000;
+  position: relative;
+  top: px;
+  height: 600px;
+  opacity: 0.9;
+}
+/* 6th part css */
+
+.sec-6 h2 {
+  position: relative;
+  top: -290px;
+  color: rgb(253, 243, 243);
+  left: 70px;
+  font-size: 30px;
+  font-weight: 500;
+}
+.sec-6 h3 {
+  position: relative;
+  top: -350px;
+  color: rgb(74, 69, 69);
+  left: 100px;
+  font-size: 35px;
+  font-weight: 700;
+}
+.sec-6 p {
+  position: relative;
+  top: -330px;
+  color: white;
+  left: 70px;
+  font-size: 25px;
+}
+
+.sec-6 input {
+  width: 300px;
+  height: 27px;
+  position: relative;
+  left: 70px;
+  bottom: 300px;
+  outline: none;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+.sec-6 button {
+  width: 150px;
+  height: 27px;
+  position: relative;
+
+  bottom: 300px;
+  border-end-end-radius: 6px;
+  border-start-end-radius: 6px;
+  outline: none;
+
+  border: 2px solid grey;
+  background-color: grey;
+  color: white;
+}
+/* footer css */
+
+
