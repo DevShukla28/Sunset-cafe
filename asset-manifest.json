@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Sunset-cafe/static/css/main.358137a7.chunk.css",
+    "main.js": "/Sunset-cafe/static/js/main.cedc52de.chunk.js",
+    "main.js.map": "/Sunset-cafe/static/js/main.cedc52de.chunk.js.map",
+    "runtime~main.js": "/Sunset-cafe/static/js/runtime~main.d71191c1.js",
+    "runtime~main.js.map": "/Sunset-cafe/static/js/runtime~main.d71191c1.js.map",
+    "static/css/2.77f4bac1.chunk.css": "/Sunset-cafe/static/css/2.77f4bac1.chunk.css",
+    "static/js/2.28e1e907.chunk.js": "/Sunset-cafe/static/js/2.28e1e907.chunk.js",
+    "static/js/2.28e1e907.chunk.js.map": "/Sunset-cafe/static/js/2.28e1e907.chunk.js.map",
+    "index.html": "/Sunset-cafe/index.html",
+    "precache-manifest.a5051eff89927a10c51c651b9a6e0a34.js": "/Sunset-cafe/precache-manifest.a5051eff89927a10c51c651b9a6e0a34.js",
+    "service-worker.js": "/Sunset-cafe/service-worker.js",
+    "static/css/2.77f4bac1.chunk.css.map": "/Sunset-cafe/static/css/2.77f4bac1.chunk.css.map",
+    "static/css/main.358137a7.chunk.css.map": "/Sunset-cafe/static/css/main.358137a7.chunk.css.map",
+    "static/media/styles.css": "/Sunset-cafe/static/media/revicons.2feb69cc.eot",
+    "static/media/slick-theme.css": "/Sunset-cafe/static/media/slick.f97e3bbf.svg"
+  }
+}
