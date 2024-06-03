@@ -13,7 +13,7 @@ function Navbar({ page }) {
       <nav className="navbar navbar-expand-lg navbar- bg-">
         <div className="container-fluid">
           <img
-            src={"./Images/cafe logo.png"}
+            src={"/Images/cafe logo.png"}
             alt="logo"
             style={{ height: "100px", width: "150px" }}
           />
